@@ -1,0 +1,29 @@
+﻿# Ignore Visual Studio temporary files
+.vs/
+*.vsidx
+*.db
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+x64/
+x86/
+build/
+[Bb]in/
+[Oo]bj/
+
+# Ignore log and temp files
+*.log
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore PowerShell/IDE files
+Thumbs.db
+.DS_Store
+
+
+Add-Content -Path .gitignore -Value "`n# Ignore nested .git directories`n*.git/"
+
+**/.git2
